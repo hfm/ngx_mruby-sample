@@ -1,0 +1,5 @@
+ngx_mruby:
+  dockerfile: Dockerfile
+  build: .
+  ports:
+    - "10080:80"
